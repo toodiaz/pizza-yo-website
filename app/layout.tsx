@@ -3,7 +3,7 @@ import { Inter } from "next/font/google";
 import "@/app/globals.css";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
-import WAButton from "@/components/WAButton";
+import SocialBar from "@/components/SocialBar";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -22,7 +22,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="es">
-      <body className={`${inter.className} bg-white text-gray-900 antialiased`}>
+      <body className={`${inter.className} bg-white text-gray-900 antialiased pb-16 md:pb-0`}>
         {/* Navbar */}
         <Nav />
 
@@ -32,8 +32,8 @@ export default function RootLayout({
         {/* Footer */}
         <Footer />
 
-        {/* WhatsApp floating button */}
-        <WAButton />
+        {/* WhatsApp + Instagram floating bar */}
+        <SocialBar />
       </body>
     </html>
   );
