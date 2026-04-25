@@ -1,0 +1,5 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root { --primary: #E63946; --accent: #FFD60A; }
+body { font-family: Inter, sans-serif; }
