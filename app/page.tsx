@@ -1,5 +1,5 @@
 export default function Home() {
-  const WA = "https://wa.me/521135759862943271";
+  const WA = "https://wa.me/523321792390";
   const benefits = [
     { icon: "🍕", title: "Masa Artesanal", desc: "Preparada al momento con ingredientes frescos y naturales." },
     { icon: "🎉", title: "Diversión Garantizada", desc: "Cada pizza es una experiencia única para toda la familia." },

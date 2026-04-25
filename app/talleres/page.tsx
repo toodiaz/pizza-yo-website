@@ -1,7 +1,5 @@
-import Image from "next/image";
-
 export default function Talleres() {
-  const WA = "https://wa.me/521135759862943271";
+  const WA = "https://wa.me/523321792390";
   const gallery = [1, 2, 3, 4];
 
   return (
@@ -9,10 +7,11 @@ export default function Talleres() {
       {/* Header */}
       <section className="bg-[#E63946] text-white py-20 px-6 text-center">
         <h1 className="text-5xl md:text-6xl font-extrabold">
-          Talleres en <span className="text-[#FFD60A]">Casa</span>
+          Talleres <span className="text-[#FFD60A]">Pizza-Yo</span>
         </h1>
         <p className="mt-4 text-lg md:text-xl max-w-2xl mx-auto opacity-90">
-          Cada sábado llevamos la experiencia Pizza-Yo a tu hogar. Aprendé a hacer pizza artesanal mientras te divertís con familia y amigos.
+          Llevamos la experiencia Pizza-Yo para tu evento. Aprende a hacer pizza artesanal
+          mientras te divertes con familia, amigos o tu equipo.
         </p>
       </section>
 
@@ -22,16 +21,16 @@ export default function Talleres() {
           <div>
             <h2 className="text-3xl font-bold text-[#E63946] mb-4">¿Cómo funciona?</h2>
             <ul className="space-y-3 text-gray-700 text-lg">
-              <li>📅 <strong>Todos los sábados</strong> – Elegí tu horario preferido.</li>
-              <li>🏠 <strong>En tu casa</strong> – Llevamos ingredientes, horno y todo lo necesario.</li>
+              <li>📅 <strong>Todos los días</strong> – Reserva con anticipación para tu evento.</li>
+              <li>🎪 <strong>Para tu evento</strong> – Llevamos ingredientes, horno y todo lo necesario.</li>
               <li>👨‍🍳 <strong>Guiado por expertos</strong> – Te enseñamos paso a paso.</li>
               <li>👨‍👩‍👧‍👦 <strong>Para todas las edades</strong> – Chicos y grandes se divierten igual.</li>
             </ul>
           </div>
           <div className="bg-[#FFD60A]/20 rounded-2xl p-8 text-center border-2 border-dashed border-[#FFD60A]">
             <span className="text-6xl">🍕</span>
-            <p className="mt-4 font-bold text-[#E63946] text-xl">Desde $XX por persona</p>
-            <p className="text-gray-600 mt-1">Grupos de 4 a 15 personas</p>
+            <p className="mt-4 font-bold text-[#E63946] text-xl">Desde $100 por persona</p>
+            <p className="text-gray-600 mt-1">A partir de 50 piezas para eventos</p>
           </div>
         </div>
       </section>
@@ -53,7 +52,7 @@ export default function Talleres() {
       {/* CTA */}
       <section className="bg-[#E63946] py-16 px-6 text-center">
         <h2 className="text-3xl md:text-4xl font-extrabold text-white">
-          Reservá tu sábado <span className="text-[#FFD60A]">pizzero</span>
+          Reserva tu taller <span className="text-[#FFD60A]">pizzero</span>
         </h2>
         <a
           href={WA}

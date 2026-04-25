@@ -10,7 +10,6 @@ const navLinks = [
   { label: "Pizzas", href: "/pizzas" },
   { label: "Nosotros", href: "/nosotros" },
   { label: "Contacto", href: "/contacto" },
-  { label: "Pals", href: "/pals" },
 ];
 
 export default function Nav() {

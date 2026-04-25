@@ -36,7 +36,7 @@ export default function PizzasPage() {
         <h2 className="text-2xl font-bold mb-4">¿Lista/o para ordenar?</h2>
         <p className="text-gray-600 mb-6">Escríbenos por WhatsApp antes del viernes a las 10 PM.</p>
         <a
-          href="https://wa.me/521135759862943271?text=¡Hola!%20Quiero%20pedir%20pizzas%20para%20este%20sábado%20🍕"
+          href="https://wa.me/523321792390?text=¡Hola!%20Quiero%20pedir%20pizzas%20para%20este%20sábado%20🍕"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-block bg-[#E63946] text-white font-bold px-8 py-4 rounded-full text-lg hover:bg-red-700 transition"

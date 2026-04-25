@@ -1,5 +1,5 @@
 export default function Fiestas() {
-  const WA = "https://wa.me/521135759862943271";
+  const WA = "https://wa.me/523321792390";
   const testimonios = [
     { name: "Mariana G.", text: "Los chicos no pararon de divertirse. ¡La mejor fiesta que organizamos!", stars: 5 },
     { name: "Diego R.", text: "Súper profesionales y la pizza estaba increíble. Todos quedaron encantados.", stars: 5 },
