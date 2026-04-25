@@ -22,7 +22,7 @@ export default function Home() {
           rel="noopener noreferrer"
           className="mt-8 inline-block bg-[#FFD60A] text-[#E63946] font-bold text-lg px-8 py-4 rounded-full shadow-lg hover:scale-105 transition-transform"
         >
-          ¡Reservá ahora por WhatsApp!
+          ¡Reserva ahora por WhatsApp!
         </a>
       </section>
 
@@ -51,7 +51,7 @@ export default function Home() {
           ¿Listos para la mejor pizza?
         </h2>
         <p className="mt-3 text-lg text-[#E63946]/80 max-w-xl mx-auto">
-          Escribinos y armamos la experiencia perfecta para vos.
+          Escríbenos y creamos la experiencia perfecta para ti.
         </p>
         <a
           href={WA}
@@ -59,7 +59,7 @@ export default function Home() {
           rel="noopener noreferrer"
           className="mt-6 inline-block bg-[#E63946] text-white font-bold text-lg px-8 py-4 rounded-full shadow-lg hover:scale-105 transition-transform"
         >
-          💬 Chateá con nosotros
+          💬 Escríbenos por WhatsApp
         </a>
       </section>
     </main>

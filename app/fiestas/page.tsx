@@ -14,7 +14,7 @@ export default function Fiestas() {
           Fiestas <span className="text-[#FFD60A]">Pizza-Yo</span>
         </h1>
         <p className="mt-4 text-lg md:text-xl max-w-2xl mx-auto opacity-90">
-          Transformá cualquier celebración en una experiencia inolvidable. Cumpleaños, reuniones, eventos corporativos y más.
+          Transforma cualquier celebración en una experiencia inolvidable. Cumpleaños, reuniones, eventos corporativos y más.
         </p>
       </section>
 
@@ -52,10 +52,10 @@ export default function Fiestas() {
       {/* CTA */}
       <section className="bg-[#FFD60A] py-16 px-6 text-center">
         <h2 className="text-3xl md:text-4xl font-extrabold text-[#E63946]">
-          ¡Hacé tu fiesta con Pizza-Yo!
+          ¡Haz tu fiesta con Pizza-Yo!
         </h2>
         <p className="mt-3 text-lg text-[#E63946]/80 max-w-xl mx-auto">
-          Contanos qué tenés en mente y armamos un plan a tu medida.
+          Cuéntanos qué tienes en mente y creamos un plan a tu medida.
         </p>
         <a
           href={WA}
@@ -63,7 +63,7 @@ export default function Fiestas() {
           rel="noopener noreferrer"
           className="mt-6 inline-block bg-[#E63946] text-white font-bold text-lg px-8 py-4 rounded-full shadow-lg hover:scale-105 transition-transform"
         >
-          🎉 Consultá por WhatsApp
+          🎉 Consulta por WhatsApp
         </a>
       </section>
     </main>
