@@ -1,9 +1,9 @@
 export default function Fiestas() {
   const WA = "https://wa.me/523321792390";
   const testimonios = [
-    { name: "Mariana G.", text: "Los chicos no pararon de divertirse. ¡La mejor fiesta que organizamos!", stars: 5 },
-    { name: "Diego R.", text: "Súper profesionales y la pizza estaba increíble. Todos quedaron encantados.", stars: 5 },
-    { name: "Carla P.", text: "Mis hijos siguen hablando de la fiesta Pizza-Yo. ¡Repetimos seguro!", stars: 5 },
+    { name: "Karla M.", text: "la verdad me sorprendio muchisimo el servicio mis niños quedaron felicisimos y la pizza estaba deliciosa 🍕" },
+    { name: "Diana R.", text: "mis hijos ya quieren que vuelvan para la siguiente fiesta jajaj muy recomendable" },
+    { name: "Roberto G.", text: "salio todo perfecto llevaron todo y los niños se divirtieron muchisimo haciendo su propia pizza" },
   ];
 
   return (
@@ -18,32 +18,57 @@ export default function Fiestas() {
         </p>
       </section>
 
-      {/* Propuesta */}
-      <section className="py-16 px-6 max-w-5xl mx-auto grid md:grid-cols-3 gap-8 text-center">
-        {[
-          { icon: "🎂", title: "Cumpleaños", desc: "El festejo más original y divertido para cualquier edad." },
-          { icon: "🏢", title: "Corporativos", desc: "Team building con sabor: ideal para empresas y equipos." },
-          { icon: "✨", title: "Eventos Especiales", desc: "Comuniones, baby showers, reuniones familiares y más." },
-        ].map((item, i) => (
-          <div key={i} className="bg-white rounded-2xl shadow-md p-8 hover:shadow-xl transition-shadow border-b-4 border-[#FFD60A]">
-            <span className="text-5xl">{item.icon}</span>
-            <h3 className="mt-4 text-xl font-bold text-gray-800">{item.title}</h3>
-            <p className="mt-2 text-gray-600">{item.desc}</p>
+      {/* Dos modalidades */}
+      <section className="py-16 px-6 max-w-4xl mx-auto">
+        <h2 className="text-3xl font-bold text-center mb-10">¿Cómo quieres tu evento?</h2>
+        <div className="grid md:grid-cols-2 gap-8">
+          <div className="bg-white rounded-2xl shadow-md p-8 border-t-4 border-[#E63946]">
+            <span className="text-5xl">👨‍🍳</span>
+            <h3 className="mt-4 text-xl font-bold text-gray-800">Taller de pizza</h3>
+            <p className="mt-2 text-gray-600">
+              Nuestro servicio estrella. Los invitados hacen su propia pizza guiados por nuestro equipo.
+              Se divierten, aprenden y se comen lo que hicieron. Funciona perfecto para niños y adultos.
+            </p>
           </div>
-        ))}
+          <div className="bg-white rounded-2xl shadow-md p-8 border-t-4 border-[#FFD60A]">
+            <span className="text-5xl">🍕</span>
+            <h3 className="mt-4 text-xl font-bold text-gray-800">Solo pizzas al momento</h3>
+            <p className="mt-2 text-gray-600">
+              Llevamos el horno y los ingredientes, y nuestro personal capacitado prepara las pizzas
+              al momento para todos tus invitados. Tú disfrutas, nosotros nos encargamos.
+            </p>
+          </div>
+        </div>
       </section>
 
-      {/* Testimonios */}
-      <section className="bg-gray-50 py-16 px-6">
+      {/* Para qué tipo de eventos */}
+      <section className="bg-gray-50 py-14 px-6 max-w-5xl mx-auto rounded-2xl mb-8">
+        <div className="grid md:grid-cols-3 gap-8 text-center max-w-5xl mx-auto">
+          {[
+            { icon: "🎂", title: "Cumpleaños", desc: "El festejo más original y divertido para cualquier edad." },
+            { icon: "🏢", title: "Corporativos", desc: "Team building con sabor, ideal para empresas y equipos." },
+            { icon: "✨", title: "Eventos especiales", desc: "Comuniones, baby showers, reuniones familiares y más." },
+          ].map((item, i) => (
+            <div key={i} className="bg-white rounded-2xl shadow-sm p-6 hover:shadow-md transition-shadow">
+              <span className="text-5xl">{item.icon}</span>
+              <h3 className="mt-4 text-xl font-bold text-gray-800">{item.title}</h3>
+              <p className="mt-2 text-gray-600">{item.desc}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* Reseñas */}
+      <section className="py-16 px-6">
         <h2 className="text-3xl md:text-4xl font-bold text-center text-[#E63946] mb-12">
           Lo que dicen nuestros clientes
         </h2>
         <div className="max-w-5xl mx-auto grid md:grid-cols-3 gap-8">
           {testimonios.map((t, i) => (
-            <div key={i} className="bg-white rounded-2xl shadow-md p-6">
-              <p className="text-[#FFD60A] text-xl mb-2">{"★".repeat(t.stars)}</p>
-              <p className="text-gray-700 italic">&ldquo;{t.text}&rdquo;</p>
-              <p className="mt-4 font-bold text-[#E63946]">— {t.name}</p>
+            <div key={i} className="bg-white rounded-2xl shadow-md p-6 border border-gray-100">
+              <p className="text-[#FFD60A] text-xl mb-3">★★★★★</p>
+              <p className="text-gray-700">{t.text}</p>
+              <p className="mt-4 font-bold text-[#E63946] text-sm">— {t.name}</p>
             </div>
           ))}
         </div>

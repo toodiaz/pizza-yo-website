@@ -10,7 +10,18 @@ export default function Home() {
   return (
     <main>
       {/* Hero */}
-      <section className="relative flex flex-col items-center justify-center text-center min-h-[85vh] bg-gradient-to-br from-[#E63946] to-[#b91c2c] text-white px-6">
+      <section className="relative flex flex-col items-center justify-center text-center min-h-[85vh] bg-gradient-to-br from-[#E63946] to-[#b91c2c] text-white px-6 overflow-hidden">
+        {/* Logo wallpaper background */}
+        <div
+          className="absolute inset-0 opacity-[0.06]"
+          style={{
+            backgroundImage: "url('/logo.png')",
+            backgroundSize: "140px auto",
+            backgroundRepeat: "repeat",
+          }}
+        />
+        <div className="relative z-10 flex flex-col items-center">
+        <img src="/logo.png" alt="Pizza-Yo" className="w-40 md:w-56 mb-6 drop-shadow-xl" />
         <h1 className="text-6xl md:text-8xl font-extrabold tracking-tight drop-shadow-lg">
           Pizza? <span className="text-[#FFD60A]">Yo!!!</span>
         </h1>
@@ -42,6 +53,7 @@ export default function Home() {
             </svg>
             Instagram
           </a>
+        </div>
         </div>
       </section>
 
