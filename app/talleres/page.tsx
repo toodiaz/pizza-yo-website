@@ -29,8 +29,8 @@ export default function Talleres() {
           </div>
           <div className="bg-[#FFD60A]/20 rounded-2xl p-8 text-center border-2 border-dashed border-[#FFD60A]">
             <span className="text-6xl">🍕</span>
-            <p className="mt-4 font-bold text-[#E63946] text-xl">Desde $100 por persona</p>
-            <p className="text-gray-600 mt-1">A partir de 50 piezas para eventos</p>
+            <p className="mt-4 font-bold text-[#E63946] text-xl">A partir de 50 piezas para eventos</p>
+            <p className="text-gray-600 mt-1">Escríbenos para cotizar tu evento</p>
           </div>
         </div>
       </section>

@@ -25,7 +25,7 @@ export default function NosotrosPage() {
         <div className="prose prose-lg mx-auto text-gray-700 text-center max-w-3xl space-y-4">
           <p>
             Pizza-Yo es un negocio familiar nacido en Zapopan. Nuestro servicio consiste en llevar
-            todo lo necesario — horno, masa madre, ingredientes y utensilios — directamente a tu
+            todo lo necesario — horno, masa artesanal, ingredientes frescos y utensilios — directamente a tu
             fiesta o evento para que los invitados vivan la experiencia de hacer su propia pizza
             y comérsela al momento.
           </p>

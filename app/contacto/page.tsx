@@ -23,8 +23,8 @@ export default function ContactoPage() {
         <div className="bg-white border rounded-2xl p-6 text-center shadow-sm">
           <span className="text-4xl">🕐</span>
           <h3 className="font-bold text-lg mt-3 mb-2">Horarios</h3>
-          <p className="text-gray-700">Pedidos: Lun–Vie</p>
-          <p className="text-sm text-gray-500 mt-1">Entregas: Sábados 12:00–6:00 PM</p>
+          <p className="text-gray-700">Lun–Vie atención a clientes</p>
+          <p className="text-sm text-gray-500 mt-1">Eventos con reserva previa</p>
         </div>
       </section>
 

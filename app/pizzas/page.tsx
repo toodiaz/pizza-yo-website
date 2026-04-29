@@ -19,8 +19,7 @@ export default function PizzasPage() {
       <section className="max-w-5xl mx-auto py-14 px-4">
         <h2 className="text-3xl font-bold text-center mb-3">Pizzas Tradicionales</h2>
         <p className="text-center text-gray-600 mb-10 max-w-2xl mx-auto">
-          Masa artesanal con una gran variedad de ingredientes frescos. Personalizamos cada pizza
-          según tus gustos — cuéntanos qué quieres y lo hacemos realidad.
+          Masa artesanal con una gran variedad de ingredientes frescos. Personaliza tu pizza según tus gustos — cuéntanos qué quieres y lo hacemos realidad.
         </p>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
           {gallery.map((n) => (
